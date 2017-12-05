@@ -1,0 +1,62 @@
+\hypertarget{classgame_1_1Alien}{}\section{game\+:\+:Alien Class Reference}
+\label{classgame_1_1Alien}\index{game\+::\+Alien@{game\+::\+Alien}}
+Inheritance diagram for game\+:\+:Alien\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=4.000000cm]{classgame_1_1Alien}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_ae5772cdffcca2587c44d47adc6d74724}\label{classgame_1_1Alien_ae5772cdffcca2587c44d47adc6d74724}} 
+{\bfseries Alien} (Q\+Pixmap image, int x, int y, int velocity, int score, Q\+String base\+Type)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_ac37a3b5d6505bbc63ac74cdf6584cff8}\label{classgame_1_1Alien_ac37a3b5d6505bbc63ac74cdf6584cff8}} 
+virtual void {\bfseries move} (Q\+String direction)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_af67d4dec3819a91db7548be3861981c7}\label{classgame_1_1Alien_af67d4dec3819a91db7548be3861981c7}} 
+Q\+List$<$ \hyperlink{classgame_1_1Bullet}{Bullet} $\ast$ $>$ {\bfseries shoot} (Q\+String type)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a9d540a0c44c487f15973149bdbc6097f}\label{classgame_1_1Alien_a9d540a0c44c487f15973149bdbc6097f}} 
+virtual Q\+List$<$ \hyperlink{classgame_1_1Bullet}{Bullet} $\ast$ $>$ {\bfseries react} ()
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_af52085eda6608a464e997ff4f7b441da}\label{classgame_1_1Alien_af52085eda6608a464e997ff4f7b441da}} 
+int {\bfseries get\+\_\+score} () const
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a61256979be794e89e2699bcd54699116}\label{classgame_1_1Alien_a61256979be794e89e2699bcd54699116}} 
+Q\+List$<$ \hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$ $>$ {\bfseries get\+Aliens} () const
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a9703a5949b6152a0d8eca6c5fbc2d2dd}\label{classgame_1_1Alien_a9703a5949b6152a0d8eca6c5fbc2d2dd}} 
+bool {\bfseries add} (\hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$to\+Add)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a796c1bf799a1b48b28f8ac78a1926383}\label{classgame_1_1Alien_a796c1bf799a1b48b28f8ac78a1926383}} 
+void {\bfseries remove} (\hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$to\+Delete)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a8bf077a07e4849840f58f861a006f948}\label{classgame_1_1Alien_a8bf077a07e4849840f58f861a006f948}} 
+virtual void {\bfseries paint} (Q\+Painter \&painter)
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_aa928f035f45b762ab4eeb819a7413450}\label{classgame_1_1Alien_aa928f035f45b762ab4eeb819a7413450}} 
+void {\bfseries set\+\_\+y} (int y)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a27481624e87c97c483ef69ddbb425d59}\label{classgame_1_1Alien_a27481624e87c97c483ef69ddbb425d59}} 
+int {\bfseries velocity}
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a092e336e9db2ad02fd1fa29c6f6812a4}\label{classgame_1_1Alien_a092e336e9db2ad02fd1fa29c6f6812a4}} 
+int {\bfseries score}
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a3411d1a2a4c2c7c5141e2ab02a5bff2d}\label{classgame_1_1Alien_a3411d1a2a4c2c7c5141e2ab02a5bff2d}} 
+Q\+Sound\+Effect {\bfseries bullet\+S\+FX}
+\item 
+\mbox{\Hypertarget{classgame_1_1Alien_a60c64a2c8b598ba3f4981f883cd1a02a}\label{classgame_1_1Alien_a60c64a2c8b598ba3f4981f883cd1a02a}} 
+\hyperlink{classgame_1_1BulletBuilder}{Bullet\+Builder} {\bfseries builder}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+alien.\+h\item 
+alien.\+cpp\end{DoxyCompactItemize}

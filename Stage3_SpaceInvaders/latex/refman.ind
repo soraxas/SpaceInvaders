@@ -1,0 +1,68 @@
+\begin{theindex}
+
+  \item {Background}, \hyperpage{11}
+
+  \indexspace
+
+  \item {Dialog}, \hyperpage{22}
+
+  \indexspace
+
+  \item {Explosion}, \hyperpage{22}
+
+  \indexspace
+
+  \item {game}, \hyperpage{7}
+  \item {game\+::\+Alien}, \hyperpage{9}
+  \item {game\+::\+Alien\+Base}, \hyperpage{10}
+  \item {game\+::\+Alien\+Builder}, \hyperpage{10}
+  \item {game\+::\+Barrier\+Block}, \hyperpage{11}
+  \item {game\+::\+Base}, \hyperpage{12}
+  \item {game\+::\+Bullet}, \hyperpage{13}
+  \item {game\+::\+Bullet\+Builder}, \hyperpage{13}
+  \item {game\+::\+Bullet\+Builder\+Interface}, \hyperpage{14}
+  \item {game\+::\+Command}, \hyperpage{14}
+  \item {game\+::\+Command\+Clear\+Stage}, \hyperpage{15}
+  \item {game\+::\+Command\+Game\+Pause}, \hyperpage{16}
+  \item {game\+::\+Command\+Game\+Start}, \hyperpage{16}
+  \item {game\+::\+Command\+Goto\+Game\+Mode}, \hyperpage{17}
+  \item {game\+::\+Command\+Goto\+Leader\+Board\+Mode}, \hyperpage{17}
+  \item {game\+::\+Command\+Goto\+Stage\+Maker\+Mode}, \hyperpage{18}
+  \item {game\+::\+Command\+Goto\+Title\+Screen\+Mode}, \hyperpage{18}
+  \item {game\+::\+Command\+Restart\+Stage}, \hyperpage{19}
+  \item {game\+::\+Config}, \hyperpage{19}
+  \item {game\+::\+Cursor}, \hyperpage{20}
+  \item {game\+::\+Cursor\+State}, \hyperpage{20}
+  \item {game\+::\+Diagonal\+Bullet}, \hyperpage{21}
+  \item {game\+::\+Fighter\+State}, \hyperpage{22}
+  \item {game\+::\+Game\+Dialog}, \hyperpage{23}
+  \item {game\+::\+Game\+Menu}, \hyperpage{25}
+  \item {game\+::\+Hunter}, \hyperpage{25}
+  \item {game\+::\+Instruction\+Request}, \hyperpage{26}
+  \item {game\+::\+Laser\+Beam}, \hyperpage{26}
+  \item {game\+::\+Leader\+Board}, \hyperpage{27}
+  \item {game\+::\+Maker\+State}, \hyperpage{28}
+  \item {game\+::\+Menu}, \hyperpage{28}
+  \item {game\+::\+Normal\+State}, \hyperpage{28}
+  \item {game\+::\+Pen\+State}, \hyperpage{29}
+  \item {game\+::\+Powerup}, \hyperpage{30}
+  \item {game\+::\+S\+Maker\+Placed\+Object}, \hyperpage{31}
+  \item {game\+::\+Ship}, \hyperpage{30}
+  \item {game\+::\+Stage\+Maker}, \hyperpage{31}
+  \item {game\+::\+Status\+Bar}, \hyperpage{32}
+  \item {game\+::\+Swarm}, \hyperpage{33}
+    \subitem {Swarm}, \hyperpage{33}
+  \item {game\+::\+Swarm\+Info}, \hyperpage{34}
+  \item {game\+::\+Unit\+Test\+Space\+Invader}, \hyperpage{34}
+
+  \indexspace
+
+  \item {Leader\+Board\+Name\+Request}, \hyperpage{27}
+
+  \indexspace
+
+  \item {star}, \hyperpage{32}
+  \item {Swarm}
+    \subitem {game\+::\+Swarm}, \hyperpage{33}
+
+\end{theindex}

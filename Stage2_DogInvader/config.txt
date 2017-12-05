@@ -1,0 +1,14 @@
+[SpaceShip]
+color Green
+coord 400
+move LLLSLSRSRSRSRSRSRRLSLLS
+size Normal
+
+[Aliens]
+10x5 x=0 y=0 RRRRSSH
+7x3 x=250 y=65 __LLL__SRRRS
+1 x=210 y=145 UUDLLLL_____S_____S_________SRRRRRRRRLS____H__DSDDUU_S
+1x1 x=225 y=315 ___ULDRS
+3x2 x=455 y=245 DDUDUUS__UUDDRRRRRR___SLLLLLL
+2x2 x=90 y=100 ______H
+1x3 x=650 y=70 ___LLLL___RRRR____H

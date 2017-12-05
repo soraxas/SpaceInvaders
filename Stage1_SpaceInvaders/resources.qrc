@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resources/defender_A.png</file>
+        <file>resources/defender_B.png</file>
+        <file>resources/defender_C.png</file>
+        <file>resources/defender_D.png</file>
+        <file>resources/laser.png</file>
+        <file>resources/laser_sound.wav</file>
+        <file>resources/orb.png</file>
+    </qresource>
+</RCC>
+

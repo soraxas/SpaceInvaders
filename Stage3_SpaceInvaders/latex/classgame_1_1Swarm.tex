@@ -1,0 +1,85 @@
+\hypertarget{classgame_1_1Swarm}{}\section{game\+:\+:Swarm Class Reference}
+\label{classgame_1_1Swarm}\index{game\+::\+Swarm@{game\+::\+Swarm}}
+Inheritance diagram for game\+:\+:Swarm\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{classgame_1_1Swarm}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classgame_1_1Swarm_abb77569228eb93b30ba187991a1c9a6b}{Swarm} (\hyperlink{classgame_1_1SwarmInfo}{Swarm\+Info} \&swarm\+Info, \hyperlink{classgame_1_1Base}{Base} \&ship)
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_a0d4f05f3b4bcdb9bfc339d5017cbb676}\label{classgame_1_1Swarm_a0d4f05f3b4bcdb9bfc339d5017cbb676}} 
+bool {\bfseries add} (\hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$to\+Add)
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_a7fd2d1d831a3cee779085727b64b1a28}\label{classgame_1_1Swarm_a7fd2d1d831a3cee779085727b64b1a28}} 
+void {\bfseries remove} (\hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$to\+Delete)
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_a658bc4cfff9d0b90b3d78a993122fec5}\label{classgame_1_1Swarm_a658bc4cfff9d0b90b3d78a993122fec5}} 
+void {\bfseries move} (Q\+String direction)
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_af4a57a9e2d29d9572a4eecedb8094e88}\label{classgame_1_1Swarm_af4a57a9e2d29d9572a4eecedb8094e88}} 
+Q\+List$<$ \hyperlink{classgame_1_1Bullet}{Bullet} $\ast$ $>$ {\bfseries shoot} (Q\+String type)
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_aec4ececc4e0c199ba9e669c20f06099a}\label{classgame_1_1Swarm_aec4ececc4e0c199ba9e669c20f06099a}} 
+int {\bfseries get\+\_\+score} () const
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_a4118700e3f584dd12b1157b7706f174b}\label{classgame_1_1Swarm_a4118700e3f584dd12b1157b7706f174b}} 
+Q\+List$<$ \hyperlink{classgame_1_1AlienBase}{Alien\+Base} $\ast$ $>$ {\bfseries get\+Aliens} () const
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_a997d0cc9a90667196d8b50ac065f2cf9}\label{classgame_1_1Swarm_a997d0cc9a90667196d8b50ac065f2cf9}} 
+Q\+List$<$ \hyperlink{classgame_1_1Bullet}{Bullet} $\ast$ $>$ {\bfseries react} ()
+\item 
+\mbox{\Hypertarget{classgame_1_1Swarm_ab1b1374558520158868e505ec24547ba}\label{classgame_1_1Swarm_ab1b1374558520158868e505ec24547ba}} 
+virtual void {\bfseries paint} (Q\+Painter \&painter)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classgame_1_1Swarm_abb77569228eb93b30ba187991a1c9a6b}\label{classgame_1_1Swarm_abb77569228eb93b30ba187991a1c9a6b}} 
+\index{game\+::\+Swarm@{game\+::\+Swarm}!Swarm@{Swarm}}
+\index{Swarm@{Swarm}!game\+::\+Swarm@{game\+::\+Swarm}}
+\subsubsection{\texorpdfstring{Swarm()}{Swarm()}}
+{\footnotesize\ttfamily game\+::\+Swarm\+::\+Swarm (\begin{DoxyParamCaption}\item[{\hyperlink{classgame_1_1SwarmInfo}{Swarm\+Info} \&}]{swarm\+Info,  }\item[{\hyperlink{classgame_1_1Base}{Base} \&}]{ship }\end{DoxyParamCaption})}
+
+C\+O\+N\+S\+T\+R\+U\+C\+T\+OR \begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+F\+OR AN E\+M\+P\+TY S\+W\+A\+RM at init (e.\+g., root node) \end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+it should A\+L\+W\+A\+YS shoot and move (see max pixels) These following properties for Root swarm nodes are the defaults for swarminfo
+\begin{DoxyItemize}
+\item moves list is a single \char`\"{}\char`\"{}
+\item max\+Pixels should be 0; because everything should always move it should always shoot, if shoot\+Time == 0; just shoot E\+V\+E\+R\+Y\+T\+H\+I\+NG because lower swarms (that are not the root) decide for them selves anyway leaf nodes from the root will always be shooting
+\item Image will be some default e.\+g., red\+Invader
+\item Type is as above, default is red
+\end{DoxyItemize}
+
+\begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+\begin{quote}
+Else, just fill out the swarm info and positions\end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+\end{quote}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+swarm.\+h\item 
+swarm.\+cpp\end{DoxyCompactItemize}
